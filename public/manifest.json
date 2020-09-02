@@ -1,0 +1,20 @@
+{
+    "name": "Budget app",
+    "short_name": "Budget",
+    "description": "An application that allows you to do budgeting stuff.",
+    "background_color": "#01579b",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [{
+      "src":"icons/icon-192x192.png",
+      "sizes": 192,
+      "type": "image/png"
+    },
+    {
+        "src":"icons/icon-512x512.png",
+        "sizes": 512,
+        "type": "image/png"
+      }]
+}
