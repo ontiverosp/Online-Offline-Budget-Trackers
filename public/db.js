@@ -4,7 +4,7 @@ const request = indexDB.open("budget", 1);
 
 request.onupgradeneeded = function (event) {
     var db = event.target.result;
-    var objectStore = db.createObjectStore("name", { keyPath: "myKey" });
+    db.createObjectStore("name", { keyPath: "myKey" });
   };
 request.onerror = function (event) {
     // Do something with request.errorCode!
